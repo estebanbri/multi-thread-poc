@@ -9,7 +9,8 @@ public class App {
         // new TimeWaitingJob().start();
         // new VolatileJob().start();
         //new ScheduleJob().startScheduleWithFixedDelay();
-        new ScheduleJob().startScheduleWithFixedRate();
+        // new ScheduleJob().startScheduleWithFixedRate();
+        new CompletableFutureJob().supplyAsync();
     }
 
 
